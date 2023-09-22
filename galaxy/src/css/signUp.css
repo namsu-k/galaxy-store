@@ -1,0 +1,126 @@
+/* Form styles */
+.registration {
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+  padding: 10%;
+}
+
+.registration-form {
+  padding: 10%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.registration-container {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  height: 100%;
+  width: 60vw;
+}
+
+.registration-title {
+  margin: 20px;
+}
+
+.registration-field {
+  display: grid;
+  gap: 10px;
+  justify-content: center;
+  justify-items: center;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.registration-field label {
+  width: 100%;
+  font-weight: bold;
+  line-height: 50px;
+  text-align: center;
+}
+
+.registration-field input {
+  margin: 10px;
+  width: 100%;
+}
+
+.registration-field select {
+  margin: 10px 0px;
+}
+
+.registration-check-button {
+  font-size: 14px;
+  width: 100%;
+  margin: 10px 5px;
+}
+
+.registration-actions {
+  margin: 20px;
+}
+
+.registration-password-requirements {
+  color: #999;
+  font-size: 12px;
+}
+
+.registration-year {
+  width: 50px;
+}
+
+.registration-email-at {
+  font-size: medium;
+  line-height: 55px;
+}
+
+.registration-year-label,
+.registration-month-label {
+  margin: 0 5px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+/* Button styles */
+.registration-check-button,
+.registration-submit-button,
+.registration-cancel-button {
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.registration-check-button:hover,
+.registration-submit-button:hover,
+.registration-cancel-button:hover {
+  background-color: #555;
+}
+
+.registration-actions input {
+  padding: 10px 20px;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .registration-container {
+    flex-direction: column;
+  }
+
+  .registration-label,
+  .registration-input {
+    width: 100%;
+  }
+
+  .registration-select {
+    width: auto;
+  }
+
+  .registration-submit-button,
+  .registration-cancel-button {
+    margin-top: 10px;
+    width: 100%;
+  }
+}

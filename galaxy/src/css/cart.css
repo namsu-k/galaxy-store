@@ -1,0 +1,112 @@
+/* Reset some default styling */
+body,
+h1,
+p,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling for the cart container */
+.cart-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+/* Styling for the cart title */
+.cart-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the cart items */
+.cart-items {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the total price */
+.total-price {
+  font-weight: bold;
+  color: #e91e63;
+}
+
+/* Styling for the cart actions */
+.cart-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Styling for the buttons */
+.clear-btn,
+.purchase-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.clear-btn:hover,
+.purchase-btn:hover {
+  background-color: #0056b3;
+}
+
+/* 장바구니 아이템 스타일 */
+.cartItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.cartItem img {
+  max-width: 120px;
+  max-height: 120px;
+  margin-right: 10px;
+}
+
+.cartItem .itemInfoDiv {
+  text-align: left;
+}
+
+.cartItem p {
+  margin: 5px 0;
+}
+
+/* 총 금액 스타일 */
+#totalPrice {
+  font-weight: bold;
+  color: #e91e63;
+}
+
+/* 초기화와 구매하기 버튼 스타일 */
+.cart-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cart-actions button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cart-actions button:hover {
+  background-color: #0056b3;
+}
